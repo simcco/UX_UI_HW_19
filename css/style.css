@@ -1,0 +1,366 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-left: 150px;
+  margin-right: 150px;
+  color: #F6C5BE;
+  font-family: Merriweather;
+  align-items: center;
+  justify-content: center;
+  background-color: #529E8A;
+  padding: 20px;
+
+}
+section {
+  border-bottom: 1px solid #F6C5BE; /* Adjust the color and thickness as needed */
+ border-bottom-widt;
+}
+
+header {
+  display: flex;
+  justify-content: space-between; /* Add space between logo and menu */
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  background-color: #373738;
+}
+header ul {
+
+  color:#F6C5BE;
+  display: flex;
+  order: 3; /* Move the menu to the left */
+  color: #F6C5BE;
+  margin-right: 20px;
+  font-family: Merriweather Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+    background-color: #529E8A;
+  padding: 40px 15px;
+  padding-top: 0px;
+  padding-bottom: 100px;
+  min-width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroImg h1 {
+  font-family: 'Shrikhand', serif;
+  font-weight: lighter;
+  font-size: 36px;
+}
+
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #529E8A;
+  text-align: center;
+}
+button {
+  padding: 12px;
+  background-color: transparent; /* Remove background color */
+  color: #F6C5BE; /* Set text color */
+  font-size: 15px;
+  font-weight: bolder;
+  border: 2px solid #F6C5BE; /* Set the border style */
+  border-radius: 4px;
+  width: 200px;
+}
+footer {
+  background-color: #529E8A;
+  padding: 5px;
+  color:#F6C5BE;
+  border-bottom: none;
+}
+#logo {
+  height: 60px;
+  order: 2; /* Move the logo to the right */
+}
+#logo1 {
+  height: 60px;
+  margin-right: 15px;
+  margin-left: 20px;
+  order: 2;
+}
+
+.logo3 {
+  width: 160px;
+}
+
+footer ul {
+  margin-top: auto;
+  background-color: #529E8A;
+  padding: 5px;
+  color: #F6C5BE;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+.heading {
+  text-align: start;
+  padding: 20px 5px;
+  font-size: 42px;
+  background-color: #529E8A;
+  margin: 20px;
+  font-weight: lighter;
+
+}
+
+.aboutMe {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.aboutMe .content1 {
+  text-align: left; /* Align text to the left */
+  margin-top: 0; /* Remove top margin */
+}
+
+.aboutMe .content1 h1.heading {
+  margin-top: 0; /* Remove top margin for the heading */
+  margin-left: 0;
+}
+
+/* My UX Skills Section */
+
+.center-container {
+
+  width: 100%;
+  max-width: 3000px;
+
+  /* Make the container at least the height of the viewport */
+ 
+}
+
+.flexContainer {
+  display: flex;
+  padding: 0px 0px;
+  background-color: #529E8A;
+ align-items: start;
+
+}
+.flexContainer div {
+  flex: 1; /* This will make the divs equally distribute the available space */
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.flexContainer li {
+  text-align: left;
+}
+
+.flexContainer h3 {
+
+font-size: 32px;
+font-weight: lighter;
+}
+
+.flexContainer div {
+  width: 33%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top:  0px;
+  padding-bottom: 60px;
+  align-items: baseline;
+  justify-content: center;
+  text-align: left;
+}
+
+.flexContainer ul {
+  font-size: 20px;
+}
+
+/* My Work Section */
+.myWork {
+
+  padding-top: 40px;
+  padding-bottom: 100px;
+  background-color: #529E8A;
+  width: 100%;
+
+
+}
+
+.myWork h1 {
+  text-align: left; /* Align text to the left */
+  margin-top: 0; /* Remove top margin */
+  margin-left: 40px;
+}
+
+.workGrid {
+  display: grid;
+  padding-top: 0;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid2 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+padding-top: 0;
+  grid-template-areas:
+  "content1 content4"
+  ;
+}
+#bigFont {
+  color: #F6C5BE;
+  letter-spacing: 2px; 
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+word-wrap: break-word;
+width: 600px;
+}
+
+.workGrid img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+  max-width: 240px;
+  padding-top: 30px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.img2 {
+  grid-area: img2;
+  max-width: 240px;
+  padding-top: 30px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.img3 {
+  grid-area: img3;
+  max-width: 240px;
+  padding-top: 30px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.img4 {
+  grid-area: img4;
+  padding: 0%;
+  margin-top: 70px;
+  
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+  padding: 20px;
+}
+.content1 {
+  grid-area: content1;
+  font-family: Merriweather Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+ 
+}
+.content2 {
+  grid-area: content2;
+  font-family: Merriweather Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+.content3 {
+  grid-area: content3;
+  font-family: Merriweather Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.content4 {
+  grid-area: content4;
+}
+
+header {
+  background-color: #529E8A;
+}
+
+.allProjects {
+display: flex;
+justify-content: center;
+font-size: 28px;
+font-weight: lighter;
+padding-top: 20px;
+}
+
+#logo {
+  animation: spin 3s ease;
+  transition: all;
+}
+
+@keyframes spin {
+
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+  background-color: #529E8A;
+  top: 00;
+  left: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preloader p {
+  height: 300px;
+  width: 300px;
+  position: fixed;
+  animation: effect 8s linear infinite;
+  
+}
+
+@keyframes effect {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+span {
+  position: absolute;
+  left: 50%;
+  transform-origin: 0px 150px;
+  transform-style: flat;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #F6C5BE;
+}

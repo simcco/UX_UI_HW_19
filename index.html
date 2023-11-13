@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simon's portfolio</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins&family=Shrikhand&display=swap" rel="stylesheet"> 
+</head>
+  <body>
+    <header>
+      <div>
+      <img id="logo1" src="images/logo1.png"><img id="logo" src="images/logopt2.png">
+    </div>
+      <ul>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+      </ul>
+    </header>
+    <section class="heroImg">
+      <div class="workGrid2">
+    
+        <div class="content1">
+          <div class="img4">
+            <img src="images/image 2 (1).png">
+          </div>
+        <h1>Simon McCormack</h1>
+      </div>
+        <div class="content4">
+        <p id="bigFont">UX Designer and Digital Product Manager based in Byron Bay, Australia.</p>
+        <button>Download Resume</button>
+      </div>
+      </div>
+    </section>
+
+    <section class="aboutMe">
+      <div class="workGrid2">
+    
+        <div class="content1">
+          
+        <h1 class="heading">About</h1>
+      </div>
+        <div class="content4">
+        <p class="allProjects">As a designer I’m always on the lookout for innovative solutions to complex challenges. I have a knack for creating user-friendly designs and producing compelling content. With expertise in user research, project management, product analysis I can plan and manage projects from start to finish. </p>
+        
+      </div>
+      </div>
+    </section>
+   
+   
+    <div class="center-container">
+      <h1 class="heading">What I Can Do</h1>
+    <section class="flexContainer">
+      <div >
+       
+        <h3>Project Management</h3>
+        <ul>
+          <li>Agile development processes</li>
+          <li>Data Analysis</li>
+          <li>Design thinking and problem-solving</li>
+          <li>Ideas and creative strategy</li>
+        </ul>
+      </div>
+      <div>
+     
+        <h3>UX/UI Design</h3>
+        <ul>
+          <li>User research and analysis</li>
+          <li>Information architecture</li>
+          <li>Wireframing and prototyping</li>
+          <li>Visual design and layout</li>
+          <li>Interaction design</li>
+          <li>Usability testing</li>
+          <li>A/B Testing</li>
+        </ul>
+      </div>
+      <div>
+      
+        <h3>Web Development</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>JQuery</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
+    </div>
+    </section>
+
+    <section class="myWork">
+      <h1 class="heading">My Work</h1>
+      <div class="workGrid">
+        <div class="img1">
+          <img src="images/placeholder_picture.png">
+        </div>
+        <div class="content1">
+          <h4>RSPCA  AUSTRALIA</h4>
+          
+          <p></p>
+          <h5>WEBSITE REDESIGN, BRANDING, USER RESEARCH AND TESTING</h5>
+          <button>View Project</button>
+        </div>
+        <div class="img2">
+          <img src="images/placeholder_picture.png">
+        </div>
+        <div class="content2">
+          <h4>CLEAN ENERGY REGULATOR</h4>
+          <p></p>
+          <h5>WEBSITE REDESIGN, BRANDING, USER RESEARCH AND TESTING</h5>
+          <button>View Project</button>
+        </div>
+        <div class="img3">
+          <img src="images/placeholder_picture.png">
+        </div>
+        <div class="content3">
+          <h4>CHECKIN</h4>
+          <p></p>
+          <h5>WEBSITE REDESIGN, BRANDING, USER RESEARCH AND TESTING</h5>
+          <button>View Project</button>
+        </div>
+      </div>
+      <div>
+      <h3 class="allProjects">View all projects</h3></div>
+    </section>
+    <footer>
+      <ul>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+      </ul>
+    </footer>
+
+
+<div class="preloader">
+  <img id="logo3" src="images/image 3.svg">
+  <p id="text"></p>
+  <script>
+      const str = "SIMON MCCORMACK DESIGN";
+      const text = document.getElementById("text");
+      window.onload = function(){
+          for (let i = 0; i < str.length; i++) {
+              let span = document.createElement('span');
+              span.innerHTML = str[i] 
+              text.appendChild(span);
+              console.log(str[i])
+              span.style.transform = `rotate(${11*i}deg)`;
+          }
+      }
+  </script>
+
+</div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
